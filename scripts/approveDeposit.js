@@ -1,7 +1,7 @@
 // Import necessary packages and contracts
 const { ethers } = require("hardhat");
 const { FXRootContractAbi } = require('../artifacts/fxRootContractABI.js');
-const ABI = require('../artifacts/contracts/CuteCats.sol/CuteCats.json');
+const ABI = require('../artifacts/contracts/FurryFriends.sol/FurryFriends.json');
 require('dotenv').config();
 
 //Transfer ERC721A tokens to the Ethereum FxChain network
